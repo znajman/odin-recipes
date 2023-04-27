@@ -1,0 +1,52 @@
+body {
+    width: 100vw;
+    height: 80vh;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: azure;
+}
+
+.index {
+    background-color: darkgray;
+}
+
+.main-title {
+    color: lightcoral;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.link-to-recipes a{
+    color: brown;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.link-to-recipes a:hover {
+    background-color: black;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.food-title {
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients:hover,
+.description:hover,
+.steps:hover {
+    background-color: rgb(211, 226, 231);
+}
